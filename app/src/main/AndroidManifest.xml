@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aptiquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AptiQuiz">
+        <activity android:name=".clockProblems"></activity>
+        <activity android:name=".CodingProblems" />
+        <activity android:name=".BloProblems" />
+        <activity android:name=".PercentProblems" />
+        <activity android:name=".AvgProblems" />
+        <activity android:name=".TimeProblems" />
+        <activity android:name=".clock" />
+        <activity android:name=".BloodR" />
+        <activity android:name=".CodnDcod" />
+        <activity android:name=".Average" />
+        <activity android:name=".Percentage" />
+        <activity android:name=".TimeAndWork" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

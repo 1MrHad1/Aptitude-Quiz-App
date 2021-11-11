@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC2185B"
+    tools:context=".Percentage">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp"
+        android:background="#512DA8"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Important Formula Of Percentage :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="397dp"
+        android:layout_height="286dp"
+        android:layout_above="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="31dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="1.Concept of Percentage:
+
+\n By a certain percent, we mean that many hundredths.
+
+\nThus, x percent means x hundredths, written as x%.
+
+\nTo express x% as a fraction: We have, x% =	x/100
+    \nThus, 20% =	20/100	=	1/5
+\nTo express a/b as a percent: We have,	a/b	=	(a/b x 100)%.
+\n2.Percentage Increase/Decrease:
+\nIf the price of a commodity increases by R%, then the reduction in consumption so as not to increase the expenditure is:
+
+	\n R/(100+R)x100%"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tview6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="39dp"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="@string/Link2"
+        android:textColor="#58428E"
+        android:textColorLink="#512DA8"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_above="@+id/tview6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/delius_swash_caps"
+        android:text="Recommended Tutorials :"
+        android:textColor="#512DA8"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round"
+        android:text="Solve Problems"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</RelativeLayout>

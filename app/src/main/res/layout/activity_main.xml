@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="251dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:gravity="center"
+        android:text="Aptitude Quiz"
+        android:textColor="#BE08DD"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="215dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="133dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#7E57C2"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="Quantitative Aptitude"
+        android:textAllCaps="true"
+        android:textColor="#F06292"
+        android:textSize="20sp"
+        app:iconTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="195dp"
+        android:layout_height="122dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#7E57C2"
+        android:fontFamily="@font/aladin"
+        android:text="Logical Reasoning"
+        android:textColor="#F06292"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/logo3" />
+
+</RelativeLayout>

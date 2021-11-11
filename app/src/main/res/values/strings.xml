@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AptiQuiz</string>
+    <string name="Link"><a href="https://www.youtube.com/watch?v=RhCwy2j2pHY&amp;list=PLOoogDtEDyvtbV-jgkZ0-i-PS2oUmSHk4">TimeAndWork</a> </string>
+    <string name="Link3"> <a href="https://www.youtube.com/watch?v=Qx73gH1kdfw&amp;list=PLOoogDtEDyvuxpbUckKYKQhUrvvePECrY">Average</a></string>
+    <string name="Link2"> <a href="https://www.youtube.com/watch?v=LdpsPknN-Ew&amp;list=PLOoogDtEDyvvqaKSM-ZkwAqUyjyR402HH">Percentage</a></string>
+    <string name="code">
+        <a href="https://www.youtube.com/watch?v=E60NWLSnBVI">CodeDecodingTutorial</a>
+    </string>
+    <string name="br">
+        <a href="https://www.youtube.com/watch?v=31qZR-BbPIs">BloodRelationTutorial</a>
+    </string>
+    <string name="cal">
+        <a href="https://www.youtube.com/watch?v=mLD41elDRTE">CalendarTutorial</a>
+    </string>
+
+</resources>

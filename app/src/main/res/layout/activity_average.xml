@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92C2185B"
+    tools:context=".Average">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="#512DA8"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text=" Important Formulas Of Averages :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="314dp"
+        android:layout_above="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E8FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="1.Average:
+
+\n Average =		(Sum of observations/Number of observations)
+\n2.Average Speed:
+
+\nSuppose a man covers a certain distance at x kmph and an equal distance at y kmph.
+
+\nThen, the average speed druing the whole journey is:		\n(2xy/x+y)	kmph."
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Recommended Tutorials :"
+        android:textColor="#512DA8"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/Link3"
+        android:textColorLink="#512DA8"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/round"
+        android:text="Solve Problems"
+        android:textColor="@color/black"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/black"
+        android:textSize="18sp" />
+</RelativeLayout>
